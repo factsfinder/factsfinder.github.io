@@ -3,6 +3,7 @@
     margin-top: 4%;
 }
 header{
+    max-width: 100%;
 margin: 0 auto;
 }
 header h1 {
@@ -83,5 +84,6 @@ header h3 {
 }
 
 footer{
+    max-width: 100%;
     margin: 0 auto;
 }
