@@ -1,27 +1,24 @@
 .main {
     font-family: 'Josefin Sans', sans-serif;
-    margin-top: 4%;
+    margin-top: 2%;
 }
 
-header h1 {
-    font-size: 60px;
+
+header{
     font-family: 'Arizonia', cursive;
+    color: black;
 }
 
-header h1 > a{
+
+header a{
     text-decoration: none;
     color: black;
 }
 
-header h1 > a:hover{
-    text-decoration: none;
+header a:hover{
+  text-decoration: none;
+  color: #337ab7;
 }
-
-header h3 {
-    font-size: 25px;
-    font-family: 'Bungee Shade', cursive;
-}
-
 
 .social-icons a {
     color: #000000;
@@ -58,6 +55,7 @@ header h3 {
     box-shadow: -5px 10px 35px 3px rgba(48, 45, 48, 0.36);
 }
 
+
 .block > h1> a {
     font-size: 55px;
     text-decoration: none;
@@ -70,6 +68,32 @@ header h3 {
     color: #428bca;
 }
 
+.proj_block{
+  background-color: #ffffff;
+  padding-left: 15px;
+  padding-top: 40px;
+  padding-right: 15px;
+  padding-bottom: 40px;
+  border-radius: 4px;
+  -webkit-box-shadow: -5px 10px 35px 3px rgba(48, 45, 48, 0.36);
+  -moz-box-shadow: -5px 10px 35px 3px rgba(48, 45, 48, 0.36);
+  box-shadow: -5px 10px 35px 3px rgba(48, 45, 48, 0.36);
+}
+
+.proj_block a {
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+}
+
+.proj_block a:hover {
+    text-decoration: none;
+    color: #428bca;
+}
+
+.proj_block a:visited{
+  text-decoration:none;
+}
 
 .blog{
     margin: 20px;
