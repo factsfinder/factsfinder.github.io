@@ -46,9 +46,9 @@ header a:hover{
 .block {
     background-color: #ffffff;
     padding-left: 15px;
-    padding-top: 60px;
+    padding-top: 40px;
     padding-right: 15px;
-    padding-bottom: 60px;
+    padding-bottom: 40px;
     border-radius: 4px;
     -webkit-box-shadow: -5px 10px 35px 3px rgba(48, 45, 48, 0.36);
     -moz-box-shadow: -5px 10px 35px 3px rgba(48, 45, 48, 0.36);
@@ -91,9 +91,11 @@ header a:hover{
     color: #428bca;
 }
 
-.proj_block a:visited{
+.proj_block a:after{
   text-decoration:none;
 }
+
+
 
 .blog{
     margin: 20px;
