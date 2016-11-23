@@ -3981,7 +3981,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   display: block;
 }
 .nav > li > a {
-  font-size: 20px;    
+  font-size: 20px;
   position: relative;
   display: block;
   padding: 40px 105px;
@@ -4696,7 +4696,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   padding: 8px 15px;
   margin-bottom: 20px;
   list-style: none;
-  
+
 }
 .breadcrumb > li {
   display: inline-block;
@@ -5869,7 +5869,7 @@ button.close {
 }
 .modal {
   position: fixed;
-  top: 0;
+  top: 30%;
   right: 0;
   bottom: 0;
   left: 0;
