@@ -3,7 +3,7 @@ title:       FactsFinder
 email:       phanindrasrikar@gmail.com
 author:      Phanindra Veera
 description: "FactsFinder's Blog"
-baseurl:     "/blog"
+baseurl:     ""
 url:         "https://factsfinder.me/blog"
 date_format: "%b %-d, %Y"
 
