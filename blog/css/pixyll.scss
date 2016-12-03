@@ -10,26 +10,26 @@
 * @license MIT
 */
 
-@import '../variables';
+@import '../blog/_sass/variables';
 
-@import '../basscss';
+@import '../blog/_sass/basscss';
 
-@import '../base';
+@import '../blog/_sass/base';
 
-@import 'links';
-@import 'positions';
-@import 'clearfix';
-@import 'code';
-@import 'forms';
-@import 'typography';
-@import 'header';
-@import 'tables';
-@import 'animations';
-@import 'footer';
-@import 'social-icons';
-@import 'blockquotes';
-@import 'posts';
-@import 'media-queries';
-@import 'gists';
-@import 'measure';
-@import 'pagination';
+@import '../blog/_sass/links';
+@import '../blog/_sass/positions';
+@import '../blog/_sass/clearfix';
+@import '../blog/_sass/code';
+@import '../blog/_sass/forms';
+@import '../blog/_sass/typography';
+@import '../blog/_sass/header';
+@import '../blog/_sass/tables';
+@import '../blog/_sass/animations';
+@import '../blog/_sass/footer';
+@import '../blog/_sass/social-icons';
+@import '../blog/_sass/blockquotes';
+@import '../blog/_sass/posts';
+@import '../blog/_sass/media-queries';
+@import '../blog/_sass/gists';
+@import '../blog/_sass/measure';
+@import '../blog/_sass/pagination';
