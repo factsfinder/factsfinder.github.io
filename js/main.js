@@ -1,6 +1,5 @@
-$(document).ready(function($){
-  $("body").addClass("animated zoomIn");
+$(document).ready(function(){
   $(".block, .proj_block").hover(function(){
-    $(this).toggleClass("animated pulse");
+    $(this).toggleClass("block-anim");
   });
 });
