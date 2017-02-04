@@ -1,7 +1,37 @@
+/* Home Page CSS */
+@-webkit-keyframes zoomIn {
+  from {
+    opacity: 0;
+    -webkit-transform: scale3d(.3, .3, .3);
+    transform: scale3d(.3, .3, .3);
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+@keyframes zoomIn {
+  from {
+    opacity: 0;
+    -webkit-transform: scale3d(.3, .3, .3);
+    transform: scale3d(.3, .3, .3);
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+
 .main {
     font-family: 'Josefin Sans', sans-serif;
     margin-top: 2%;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    animation-name: zoomIn;
 }
+
 
 header {
     font-family: 'Arizonia', cursive;
@@ -54,19 +84,26 @@ header a:hover {
 }
 
 @keyframes pulse_animation {
-	0% { transform: scale(1); }
-	20% { transform: scale(1); }
-	40% { transform: scale(1.08); }
-  60% { transform: scale(1); }
-  80% { transform: scale(1); }
-  100% { transform: scale(1); }
+  from {
+   -webkit-transform: scale3d(1, 1, 1);
+   transform: scale3d(1, 1, 1);
+ }
+
+ 50% {
+   -webkit-transform: scale3d(1.05, 1.05, 1.05);
+   transform: scale3d(1.05, 1.05, 1.05);
+ }
+
+ to {
+   -webkit-transform: scale3d(1, 1, 1);
+   transform: scale3d(1, 1, 1);
+ }
 }
 
 .block-anim{
   animation-name: pulse_animation;
 	animation-duration: 1s;
-	transform-origin:70% 70%;
-	animation-timing-function: linear;
+  animation-fill-mode: both;
 }
 
 
@@ -83,6 +120,7 @@ header a:hover {
     color: #428bca;
 }
 
+/* Project block */
 .proj_block {
     background-color: #ffffff;
     padding-left: 15px;
@@ -116,6 +154,7 @@ header a:hover {
     color: black;
 }
 
+/* Blog CSS */
 .blog {
     margin: 20px;
 }
